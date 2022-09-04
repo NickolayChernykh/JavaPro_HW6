@@ -74,11 +74,10 @@ public class HomeWorkApp {
     }
 
 
-    static String print(String s, int a) {
+    static void print(String s, int a) {
         for (int i = 0; i < a; i++) {
             System.out.println(s);
         }
-        return null;
     }
 
     static boolean leapYear(int year) {
